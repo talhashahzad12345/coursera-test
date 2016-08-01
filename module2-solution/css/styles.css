@@ -1,0 +1,91 @@
+/********** Base styles **********/
+
+*{
+	box-sizing: border-box;
+	font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+h1{
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 2.5em;
+}
+
+section{
+	padding: 10px;
+}
+
+.items{
+	background-color:#A9A9A9;
+	border:1px solid black;
+	height: auto;
+	font-size: 1em;
+}
+
+h2{
+	position: relative;
+	float: right;
+	text-align: center;
+	margin:0px;
+	padding: 0px 5px 0px 5px;
+	width: 140px;
+	font-size: 1.5em;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+
+}
+
+.chicken{
+	background-color:#F08080;
+}
+
+.beef{
+	background-color:#A52A2A;
+	color: white;
+}
+
+.sushi{
+	background-color:#BDB76B;
+}
+
+p{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Helvetica;
+	font-size: 1em;
+	padding-top: 30px;
+}
+
+
+.row{
+	width: 100%
+}
+
+
+
+/********** Desktop View **********/
+@media (min-width: 992px){
+	.col-lg-4{
+		float: left;
+		width:33%;
+	}
+
+}
+
+
+
+/********** Tablet View **********/
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6, .col-md-12 {
+		float: left;
+	}
+
+	.col-md-6{
+		width: 50%;
+	}
+
+	.col-md-12{
+		width: 100%;
+	}
+}
