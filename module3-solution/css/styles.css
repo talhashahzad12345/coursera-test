@@ -1,0 +1,69 @@
+body{
+	font-size: 16px;
+	background-color:#87CEFA;
+	font-family: 'Pacifico', cursive, sans-serif;
+}
+/*header*/
+.navbar-brand
+{
+padding-top: 1em;
+font-size: 1.8em;
+height: 3em;
+}
+#name{
+	color: white;
+}
+#header-nav
+{
+	background-color: #000;
+	border-radius: 0px;
+	border: 0;
+	border-bottom: 5px solid white;	 
+}
+#menu-list
+{
+	background-color:#A52A2A;
+	margin-top: 0px; 
+}
+#menu-options a:hover
+{
+	background-color: #E7E7E7; 
+}
+.container>.navbar-collapse
+{
+	margin-bottom: -10px;
+}
+.navbar-header button.navbar-toggle{
+	margin-top: 1.25em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar   
+{
+	border:1px solid #fff;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+/*End Header*/
+#main-page{
+	margin-bottom: 20px;
+}
+h1{
+	color: #000;
+	text-transform: uppercase;
+	text-shadow: .5px .5px .5px #222;
+}
+h2{
+	color: 	#A52A2A;
+	padding-bottom: 20px;
+	text-decoration: underline;
+}
+#mid{
+	font-family:"Comic Sans MS", cursive;
+	padding: 20px 10px 15px;
+	background-color:#E6E6FA;
+	color: #FA8072;
+	border: 1px solid white;
+}
+p{
+	font-size: 1.25em;
+}
